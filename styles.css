@@ -1,0 +1,64 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+header h1, h3 {
+  background-color: #4682B4;
+  padding: 7px 0 7px 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-weight: 100;
+  color: whitesmoke;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h1 {
+  font-size: 3.0rem;                  /* will be changed */
+}
+p {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: whitesmoke;     /* will be changed */
+  text-align: center;
+}
+p span {
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 5px;
+  text-transform: uppercase;
+  background-color: whitesmoke;
+  color: #4682B4;
+  cursor: pointer;
+}
+table {
+  margin: 2.0rem auto;
+}
+td {
+  width: 13.5rem;
+  height: 12.0rem;
+  background-color: #c0b0b0;        /* will be changed */
+  border: 12px solid black;
+  border-radius: 3.0rem;
+}
+.white {
+  background-color: #4682B4;
+  color: whitesmoke;
+}
+#announcer {
+  background-color: whitesmoke;
+  font-weight: 100;
+  text-transform: capitalize;
+  color: black;
+  cursor: default;
+}
+#restart:hover {
+  background-color: #4682B4;
+  color: whitesmoke;
+  cursor: pointer;
+}
